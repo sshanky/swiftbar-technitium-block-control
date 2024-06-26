@@ -45,13 +45,13 @@ token="a2e25f22e0d4ec0869bee7093bc3573d2dfff5ca00dd191948ac91c285052213"
 ## Usage
 ### Menu Options
 - Disable Blocklist:
- - 1 minute
- - 2 minutes
- - 5 minutes
- - 10 minutes
- - 30 minutes
- - 1 hour
- - 2 hours
+  - 1 minute
+  - 2 minutes
+  - 5 minutes
+  - 10 minutes
+  - 30 minutes
+  - 1 hour
+  - 2 hours
 - Reactivate Blocklist: Immediately reactivate the blocklist.
 
 - Clear Local DNS Cache: Clear the DNS cache on your macOS machine.
