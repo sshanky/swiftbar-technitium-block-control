@@ -17,12 +17,12 @@ cd swiftbar-technitium-block-control
 
 2. Make the Script Executable:
 ```
-chmod +x disable_ad_blocking.10m.sh
+chmod +x disable_ad_blocking.1m.sh
 ```
 
 3. Move the Script to SwiftBar Plugins Directory:
 ```
-mv disable_ad_blocking.10m.sh ~/Library/Application\ Support/SwiftBar/Plugins/
+mv disable_ad_blocking.1m.sh ~/Library/Application\ Support/SwiftBar/Plugins/
 ```
 (get your SwiftBar plugin directory first from SwiftBar)
 
@@ -39,7 +39,7 @@ Generate an API token in Technitium by clicking your username in the top right c
 ### Example configuration
 
 ```
-server_url="http://192.168.13.201:5380"
+server_url="http://192.168.1.201:5380"
 token="a2e25f22e0d4ec0869bee7093bc3573d2dfff5ca00dd191948ac91c285052213"
 ```
 ## Usage
