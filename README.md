@@ -8,25 +8,25 @@ This SwiftBar plugin allows you to manage Technitium DNS ad blocking directly fr
 - Reactivate Ad Blocking: Reactivate ad blocking immediately.
 - Clear Local DNS Cache: Clear the DNS cache on your macOS machine to ensure you're using the latest DNS information.
 ## Installation
-### Clone the Repository
+1. Clone the Repository
 ```
 git clone git@github.com
 /swiftbar-technitium-block-control.git
 cd swiftbar-technitium-block-control
 ```
 
-### Make the Script Executable:
+2. Make the Script Executable:
 ```
 chmod +x disable_ad_blocking.10m.sh
 ```
 
-### Move the Script to SwiftBar Plugins Directory:
+3. Move the Script to SwiftBar Plugins Directory:
 ```
 mv disable_ad_blocking.10m.sh ~/Library/Application\ Support/SwiftBar/Plugins/
 ```
 (get your SwiftBar plugin directory first from SwiftBar)
 
-### Restart SwiftBar:
+4. Restart SwiftBar:
 If SwiftBar is running, restart it to load the new plugin.
 ## Script Configuration
 The script uses the following configuration variables:
@@ -40,21 +40,21 @@ Generate an API token in Technitium by clicking your username in the top right c
 
 ```
 server_url="http://192.168.13.201:5380"
-token="a2e25f22e0d4ec0869bee7093bc3573216fff5ca00dd191948ac91c285052213"
+token="a2e25f22e0d4ec0869bee7093bc3573d2dfff5ca00dd191948ac91c285052213"
 ```
 ## Usage
 ### Menu Options
-#### Disable Blocklist:
-- 1 minute
-- 2 minutes
-- 5 minutes
-- 10 minutes
-- 30 minutes
-- 1 hour
-- 2 hours
-#### Reactivate Blocklist: Immediately reactivate the blocklist.
+- Disable Blocklist:
+ - 1 minute
+ - 2 minutes
+ - 5 minutes
+ - 10 minutes
+ - 30 minutes
+ - 1 hour
+ - 2 hours
+- Reactivate Blocklist: Immediately reactivate the blocklist.
 
-#### Clear Local DNS Cache: Clear the DNS cache on your macOS machine.
+- Clear Local DNS Cache: Clear the DNS cache on your macOS machine.
 
 ## Contributing
 If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request. Contributions are always welcome!
